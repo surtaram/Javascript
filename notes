@@ -1,0 +1,126 @@
+Array in js:- 
+- Collection of item .-->Linear type hota hai 
+-in array we can store diff diff type of value .
+
+Array indices :- 
+- String --> immutable 
+-array --> mutable 
+
+Looping over an array :- 
+- Print all element an array 
+
+
+Array methods :- 
+- Push(): add to end  
+
+-Pop(): delete from end & return 
+
+-toString(): convert array to string 
+
+
+-concat() --> joins multiple array & return results 
+
+unshift () --> add to start 
+
+shift() --> delete from start & return 
+
+
+slice() --> returns a piece of the array 
+    slice(startindex,endindex)
+
+splice() --> change original array (add,remove,replace)
+   splice(startindex,delcount,newEl1)
+
+
+Function and Methods:- 
+- Functions:- Block of code that performs a specific task ,can be invoked/call whenever needed. 
+redundancy ----> repeat 
+
+NaN ERROR==> Not a number
+
+function parameters are like local variable of function ---> block scope 
+
+Arrow function :- compact way of writing a function 
+
+forEach loop in arrays:- 
+--> this is actually methods
+
+
+arr.forEach(callBackFunction)
+
+callBackFunction:- Here,its is a function to execute for each element in the array.
+
+A callback is a function passed as a argument to another function
+
+
+Map:- Create new array with the results of some operations .The value its callback returns are used to form new array
+
+
+arr.map(callBackFnx(value,index,array))
+
+Filter:- create a new array of elements that give true for a condition/filter
+
+
+DOM:- Document object model:-
+
+HTML:- Structure
+CSS -> style
+JS -> Logic
+
+Starter Code:- 
+<style> tag connect HTML with css
+<script> tag connect with html with js
+
+Window object :- window object represents an open window in a browser .It is browser's object and is automatically created by browser
+
+Its a global object with lots of properties & methods 
+
+What is DOM :- When a web page is loaded ,the browser creates a document object model of the page .
+
+html ko js mai access krne ka tarika hai .its tree like structure 
+window--> document-->html ---> head -->meta ,title ,link
+                                body ---> script ,div --> img ,h1,p,div 
+
+
+DOM Manupulation :- 
+Select id :- 
+document.getElementById("")
+
+select class name:- 
+document.getElementsbyClassName("")
+
+DOM Properties:- 
+tagName:- returns   tag for element nodes 
+innerText:- returns the text content  of the element and all its children
+innerHTML:- returns the plain text or HTML contents in the element
+textContent :- returns textual content even for hidden elements 
+
+
+attributes 
+- getAttribute(attr)  --> to get attribute value 
+- setAttribute(attr,value) --> to set the attribute val th
+
+style
+- node.style 
+
+
+Events in Javascripts:- 
+The change in the state of an object is known as event 
+Events are fired to notify code of "interesting changes" that may affect code execution 
+
+
+Mouse events (click ,double click etc.)
+Keyboard events (keypress ,keyup ,keydown)
+Form event(submit etc)
+Print event and many more 
+
+
+Event Objects:- 
+It is a special object that has details about the event.
+All event handlers have access to the event objects properties and methods
+
+Events listeners:- 
+
+node.addEventListener(event,callback)
+node.removeEventListener(event,callback)
+ 
